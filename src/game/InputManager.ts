@@ -119,10 +119,10 @@ export class InputManager {
                 if (!gp) continue;
 
                 // D-pad
-                if (gp.buttons[12]) tmp.y = -1; // up
-                if (gp.buttons[13]) tmp.y = 1;  // down
-                if (gp.buttons[14]) tmp.x = -1; // left
-                if (gp.buttons[15]) tmp.x = 1;  // right
+                if (gp.buttons[12]?.pressed) tmp.y = -1; // up
+                if (gp.buttons[13]?.pressed) tmp.y = 1;  // down
+                if (gp.buttons[14]?.pressed) tmp.x = -1; // left
+                if (gp.buttons[15]?.pressed) tmp.x = 1;  // right
 
                 // Left analog stick
                 if (tmp.x === 0 && tmp.y === 0 && gp.axes.length >= 2) {

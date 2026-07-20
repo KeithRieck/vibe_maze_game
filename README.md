@@ -1,4 +1,4 @@
-Hosted at: https://keithrieck.github.io/vibe_maze_game/public/index.html
+Hosted at: https://keithrieck.github.io/vibe_maze_game/dist/index.html
 
 # Maze Game
 
