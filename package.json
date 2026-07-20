@@ -1,0 +1,28 @@
+{
+    "name": "game1",
+    "description": "Maze Game — a browser-based 2D maze built with Phaser, TypeScript, and ESBuild",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "dev": "node log.js dev & node esbuild/dev.server.mjs -w",
+        "build": "node log.js build & node esbuild/build.prod.mjs",
+        "clean": "rimraf dist",
+        "dev-nolog": "node esbuild/dev.server.mjs -w",
+        "build-nolog": "node esbuild/build.prod.mjs"
+    },
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "phaser": "^3.88.2"
+    },
+    "devDependencies": {
+        "@jgoz/esbuild-plugin-livereload": "^2.0.5",
+        "esbuild": "^0.25.0",
+        "esbuild-plugin-clean": "^1.0.1",
+        "esbuild-plugin-copy": "^2.1.1",
+        "esbuild-plugin-inline-image": "^0.0.9",
+        "esbuild-serve": "^1.0.1",
+        "rimraf": "^6.0.1",
+        "typescript": "^5.4.5"
+    }
+}
