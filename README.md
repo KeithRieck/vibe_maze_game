@@ -1,3 +1,4 @@
+Hosted at: https://keithrieck.github.io/vibe_maze_game/public/index.html
 
 # Maze Game
 
